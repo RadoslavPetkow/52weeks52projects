@@ -15,3 +15,5 @@ The calculator provides basic arithmetic operations such as addition, subtractio
 - Decimal point (.)
 - Equals (=)
 - Clear (C)
+- Percentage (%)
+- Brackets ('(' & ')')
