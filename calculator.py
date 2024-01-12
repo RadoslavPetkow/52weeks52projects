@@ -10,7 +10,6 @@ def on_click(button_text):
     if button_text == "=":
         try:
             if "%" in symbols_list:
-                # Replace percentage expressions in the entire expression
                 for i, symbol in enumerate(symbols_list):
                     if symbol == "%":
                         symbols_list[i] = "/100*"
@@ -22,14 +21,14 @@ def on_click(button_text):
 
             entry.delete(0, tk.END)
             entry.insert(tk.END, str(result))
-            symbols_list = ["="]  # Clear symbols list after evaluation
+            symbols_list = ["="] 
         except Exception as e:
             entry.delete(0, tk.END)
             entry.insert(tk.END, "Error")
-            symbols_list = []  # Clear symbols list on error
+            symbols_list = []  
     elif button_text == "C":
         entry.delete(0, tk.END)
-        symbols_list = []  # Clear symbols list on clear
+        symbols_list = [] 
     elif button_text == "%":
         entry.insert(tk.END, "%")
         symbols_list.append("%")
