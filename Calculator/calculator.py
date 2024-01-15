@@ -54,8 +54,11 @@ buttons = [
 row_val = 1
 col_val = 0
 
+button_width = 5
+button_height = 2
+
 for button in buttons:
-    tk.Button(root, text=button, padx=20, pady=20, font=('Arial', 14), command=lambda btn=button: on_click(btn)).grid(
+    tk.Button(root, text=button, width=button_width, height=button_height, font=('Arial', 14), command=lambda btn=button: on_click(btn)).grid(
         row=row_val, column=col_val)
     col_val += 1
     if col_val > 3:
