@@ -1,5 +1,3 @@
-Here’s a README.md for your project:
-
 # Modern Search Engine
 
 A simple yet modern search engine application built using Python and `Tkinter`. It allows users to search for web content, displays search results with titles, descriptions, and URLs, and provides a user-friendly interface for navigating search results. Users can also view web pages directly within the application.
