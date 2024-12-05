@@ -8,8 +8,8 @@ from PyQt5.QtWebEngineWidgets import QWebEngineView
 from PyQt5.QtCore import QUrl, Qt
 
 # Replace these with your valid API key and CSE ID
-API_KEY = 'AIzaSyCsk2PJvDkx67h7zrlL-iYf9vKPeEq6AEw'
-CSE_ID = '412dfa49d905b4c60'  # Your provided CSE ID
+API_KEY = 'YOUR_API_KEY'
+CSE_ID = 'YOUR_CSE_ID'
 
 
 def google_search(search_term, api_key, cse_id, **kwargs):
